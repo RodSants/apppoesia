@@ -10,6 +10,7 @@ export class AutorService {
 
         getAutores() : Observable<Autor[]>{
         return this.http.get<Autor[]>(
-            'http://www.mocky.io/v2/5c5e10b23200002a0040b367');
+            'http://www.mocky.io/v2/5c6203303000000e000195c1');
+            
         }
 }

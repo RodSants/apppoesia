@@ -1,23 +1,23 @@
 <ion-header>
 
+  <ion-navbar>
+    <ion-title>Introdução</ion-title>
+    <button ion-button menuToggle> <ion-icon name="menu"></ion-icon></button>
+  </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
-  <h3>LOGIN</h3>
-
-  <ion-list>
-    <ion-item>
-      <ion-label stacked>Username</ion-label>
-      <ion-input type="text"></ion-input>
-    </ion-item>
-    <ion-item>
-
-      <ion-label stacked>Password</ion-label>
-      <ion-input type="password"></ion-input>
-    </ion-item>
-  </ion-list>
-
-  <button ion-button block (click)="login()">ENTRAR</button>
-  <button ion-button block outline>REGISTRAR</button>
-
+<ion-content>
+  <ion-card class="welcome-card">
+    <ion-img src="/assets/imgs/livros-lider-banner.png"></ion-img>
+    <ion-card-header>
+      <!--<ion-card-subtitle style='text-align: center'>Introdução</ion-card-subtitle> -->
+      <ion-card-title style='text-align: center'>Bem vindo ao Poesia Mobile</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p align='justify'>O Brasil conta com um rico acervo de poesias lindas, que despertam interesse não só dos amantes da literatura brasileira, mas também, daquelas pessoas que simplesmente estão em busca de uma boa leitura. A nossa “biblioteca” conta com poesias que passaram por vários movimentos literários, iniciando no arcadismo, quando as estruturas desse tipo de literatura era mais rígida, até chegar na era moderna, onde os escritores ganham mais liberdade lírica de construir.
+      <br>Aqui encontraremos alguns dos grandes poetas brasileiros com suas obras primas.<br></p>
+    </ion-card-content>
+  </ion-card>
+  
 </ion-content>

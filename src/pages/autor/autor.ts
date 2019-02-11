@@ -22,6 +22,7 @@ export class AutorPage {
     this.autorService.getAutores()
     .subscribe(response => {
       this.autores = response;
+      console.log(response);
     });
     }
 

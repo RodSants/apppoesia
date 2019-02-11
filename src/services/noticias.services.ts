@@ -10,7 +10,7 @@ export class NoticiaService {
 
         getNoticias() : Observable<Noticia[]>{
         return this.http.get<Noticia[]>(
-            'http://www.mocky.io/v2/5c48ee3232000005220b5661');
+            'http://www.mocky.io/v2/5c61f61d300000600001958c');
         }
 
 }
